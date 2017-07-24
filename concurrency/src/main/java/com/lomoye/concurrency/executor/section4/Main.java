@@ -35,7 +35,7 @@ public class Main {
 
             for (int i = 0; i < resultList.size(); i++) {
                 Future<Integer> result = resultList.get(i);
-                System.out.printf("Main: Task %d: %s\n", i, result.isDone());
+                System.out.printf("Main: section5 %d: %s\n", i, result.isDone());
             }
 
             try {
@@ -61,7 +61,7 @@ public class Main {
             } catch (InterruptedException | ExecutionException e) {
                 e.printStackTrace();
             }
-            System.out.printf("Main: Task %d: %d\n", i, number);
+            System.out.printf("Main: section5 %d: %d\n", i, number);
         }
 
         executor.shutdown();

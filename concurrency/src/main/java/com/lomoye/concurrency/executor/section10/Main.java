@@ -15,7 +15,7 @@ public class Main {
         ResultTask[] resultTasks = new ResultTask[5];
 
         for (int i = 0; i < 5; i++) {
-            ExecutableTask executableTask = new ExecutableTask("Task " + i);
+            ExecutableTask executableTask = new ExecutableTask("section5 " + i);
 
             resultTasks[i] = new ResultTask(executableTask);
 

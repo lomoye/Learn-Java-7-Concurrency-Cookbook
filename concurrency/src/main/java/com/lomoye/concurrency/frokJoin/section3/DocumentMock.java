@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * Created by lomoye on 2017/7/21.
  */
-public class Document {
+public class DocumentMock {
     private String words[] = {"the", "hello", "goodbye", "packt", "java", "thread", "pool", "random", "class", "main"};
 
     public String[][] generateDocument(int numLines, int numWords, String word) {

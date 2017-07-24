@@ -15,16 +15,16 @@ public class Task implements Runnable {
 
     @Override
     public void run() {
-        System.out.println("Task " + name + ": Starting");
+        System.out.println("section5 " + name + ": Starting");
         try {
             long duration = 10L;
-            System.out.printf("Task %s: ReportGenerator: Generating a report during %d seconds\n", name, duration);
+            System.out.printf("section5 %s: ReportGenerator: Generating a report during %d seconds\n", name, duration);
             TimeUnit.SECONDS.sleep(duration);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
-        System.out.printf("Task %s: Ending\n",name);
+        System.out.printf("section5 %s: Ending\n",name);
     }
 
     public String toString() {

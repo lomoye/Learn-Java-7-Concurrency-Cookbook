@@ -14,7 +14,7 @@ public class Main {
     public static void main(String[] args) {
         ScheduledExecutorService executor = Executors.newScheduledThreadPool(1);
 
-        Task task = new Task("Task");
+        Task task = new Task("section5");
 
         ScheduledFuture<?> result = executor.scheduleAtFixedRate(task, 1, 5, TimeUnit.SECONDS);
 

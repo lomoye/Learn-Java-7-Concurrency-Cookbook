@@ -32,7 +32,7 @@ public class Task extends RecursiveAction {
         } else {
 
             int middle = (last + first) / 2;
-            System.out.printf("Task: 队列任务数:%s\n", getQueuedTaskCount());
+            System.out.printf("section5: 队列任务数:%s\n", getQueuedTaskCount());
             Task t1 = new Task(products, first, middle , increment);
             Task t2 = new Task(products, middle, last, increment);
             invokeAll(t1, t2);

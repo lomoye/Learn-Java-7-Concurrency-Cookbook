@@ -10,7 +10,7 @@ public class Main {
 
         for (int i = 0; i < 100; i++) {
 
-            Task task = new Task("Task " + i);
+            Task task = new Task("section5 " + i);
 
             server.executeTask(task);
 
